@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Untuk Velia Al Zahra ❤️</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background:
+        radial-gradient(circle at 20% 20%, rgba(140, 70, 200, .25), transparent 30%),
+        radial-gradient(circle at 80% 70%, rgba(255, 200, 100, .12), transparent 30%),
+        linear-gradient(135deg, #08040d, #190921, #09050e);
+    color: white;
+    overflow-x: hidden;
+}
+
+/* BINTANG */
+
+.stars {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+    animation: kelapKelip 2s infinite alternate;
+}
+
+@keyframes kelapKelip {
+    from {
+        opacity: .2;
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1.5);
+    }
+}
+
+/* HERO */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-content {
+    max-width: 900px;
+    animation: muncul 2s ease;
+}
+
+.kecil {
+    color: #d8b36a;
+    letter-spacing: 6px;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: clamp(50px, 10vw, 110px);
+    font-weight: normal;
+
+    background: linear-gradient(
+        90deg,
+        white,
+        #e5c878,
+        white,
+        #b987ff,
+        white
+    );
+
+    background-size: 300%;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: warna 6s linear infinite;
+}
+
+@keyframes warna {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 300%;
+    }
+}
+
+.hero p {
+    margin-top: 20px;
+    color: #ddd;
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+.garis {
+    width: 160px;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        #d8b36a,
+        transparent
+    );
+
+    margin: 35px auto;
+}
+
+/* TOMBOL MUSIK */
+
+.music-button {
+    margin-top: 35px;
+
+    padding: 18px 38px;
+
+    border: 1px solid #d8b36a;
+    border-radius: 50px;
+
+    background: linear-gradient(
+        135deg,
+        #2a1235,
+        #0d0712
+    );
+
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: .4s;
+
+    box-shadow:
+        0 0 25px rgba(216,179,106,.15);
+}
+
+.music-button:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 0 40px rgba(216,179,106,.4);
+}
+
+/* SCROLL */
+
+.scroll {
+    margin-top: 55px;
+
+    color: #aaa;
+
+    font-size: 12px;
+
+    letter-spacing: 4px;
+
+    animation: turunNaik 2s infinite;
+}
+
+@keyframes turunNaik {
+
+    50% {
+        transform: translateY(10px);
+    }
+
+}
+
+/* SECTION */
+
+section {
+    position: relative;
+    z-index: 1;
+
+    padding: 100px 20px;
+}
+
+.container {
+    max-width: 950px;
+    margin: auto;
+}
+
+.judul {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.judul span {
+    color: #d8b36a;
+    font-size: 13px;
+    letter-spacing: 5px;
+}
+
+.judul h2 {
+    font-size: 42px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+/* CARD */
+
+.card {
+
+    background: rgba(255,255,255,.045);
+
+    border: 1px solid rgba(216,179,106,.35);
+
+    border-radius: 25px;
+
+    padding: 55px;
+
+    backdrop-filter: blur(15px);
+
+    box-shadow:
+        0 0 60px rgba(120,50,180,.15);
+}
+
+.card p {
+
+    font-family: Arial, sans-serif;
+
+    color: #eee;
+
+    font-size: 17px;
+
+    line-height: 2;
+
+    margin-bottom: 23px;
+}
+
+.gold {
+    color: #e5c879;
+}
+
+/* QUOTE */
+
+.quote {
+
+    text-align: center;
+
+    padding: 110px 20px;
+}
+
+.quote-text {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    font-size: clamp(27px, 5vw, 48px);
+
+    line-height: 1.5;
+
+    font-style: italic;
+}
+
+.quote-text span {
+    color: #e5c879;
+}
+
+/* SURAT */
+
+.letter {
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(255,255,255,.07),
+            rgba(255,255,255,.025)
+        );
+
+    border-radius: 28px;
+
+    border: 1px solid rgba(216,179,106,.4);
+
+    padding: 60px;
+
+    box-shadow:
+        0 30px 100px rgba(0,0,0,.5);
+}
+
+.heart-big {
+
+    text-align: center;
+
+    font-size: 60px;
+
+    margin-bottom: 30px;
+
+    animation: detak 1.5s infinite;
+}
+
+@keyframes detak {
+
+    50% {
+        transform: scale(1.2);
+    }
+
+}
+
+.letter h3 {
+
+    text-align: center;
+
+    font-size: 32px;
+
+    font-weight: normal;
+
+    color: #e5c879;
+
+    margin-bottom: 40px;
+}
+
+.letter p {
+
+    font-size: 18px;
+
+    line-height: 2;
+
+    color: #eee;
+
+    margin-bottom: 25px;
+}
+
+.signature {
+
+    text-align: right;
+
+    margin-top: 50px;
+
+    color: #d8b36a;
+
+    font-size: 23px;
+
+    font-style: italic;
+}
+
+/* RAHASIA */
+
+.rahasia-area {
+
+    text-align: center;
+}
+
+.rahasia-button {
+
+    padding: 18px 35px;
+
+    border: 1px solid #d8b36a;
+
+    border-radius: 50px;
+
+    background: transparent;
+
+    color: #e5c879;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: .4s;
+}
+
+.rahasia-button:hover {
+
+    background: #d8b36a;
+
+    color: #100912;
+
+}
+
+.rahasia {
+
+    display: none;
+
+    margin-top: 35px;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    background: rgba(216,179,106,.07);
+
+    border: 1px solid rgba(216,179,106,.3);
+
+    animation: muncul .8s ease;
+}
+
+.rahasia p {
+
+    font-size: 19px;
+
+    line-height: 2;
+
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+footer {
+
+    text-align: center;
+
+    padding: 100px 20px;
+
+    position: relative;
+
+    z-index: 1;
+}
+
+footer h2 {
+
+    font-size: 38px;
+
+    font-weight: normal;
+
+    color: #e5c879;
+}
+
+footer p {
+
+    margin-top: 20px;
+
+    color: #999;
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.8;
+}
+
+.footer-heart {
+
+    font-size: 40px;
+
+    margin-top: 25px;
+}
+
+/* HATI JATUH */
+
+.hati {
+
+    position: fixed;
+
+    top: -40px;
+
+    z-index: 20;
+
+    pointer-events: none;
+
+    animation: jatuh linear forwards;
+}
+
+@keyframes jatuh {
+
+    to {
+
+        transform:
+            translateY(110vh)
+            rotate(360deg);
+
+        opacity: 0;
+    }
+
+}
+
+/* ANIMASI */
+
+@keyframes muncul {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            translateY(30px);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            translateY(0);
+    }
+
+}
+
+/* HP */
+
+@media(max-width:700px) {
+
+    .card,
+    .letter {
+
+        padding: 30px 22px;
+    }
+
+    .hero h1 {
+
+        font-size: 55px;
+    }
+
+    .hero p {
+
+        font-size: 16px;
+    }
+
+    .letter p,
+    .card p {
+
+        font-size: 16px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- BINTANG -->
+
+<div class="stars" id="stars"></div>
+
+
+<!-- MUSIK -->
+
+<audio id="lagu" loop>
+    <source src="Raim Laode - Lesung Pipi.mp3" type="audio/mpeg">
+</audio>
+
+
+<!-- HALAMAN DEPAN -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="kecil">
+            A LITTLE MESSAGE FOR YOU
+        </div>
+
+        <h1>
+            Velia Al Zahra
+        </h1>
+
+        <div class="garis"></div>
+
+        <p>
+            Untuk perempuan yang sudah menemani
+            perjalanan panjang hidupku. ❤️
+        </p>
+
+
+        <!-- TOMBOL INI YANG MENJALANKAN LAGU -->
+
+        <button
+            class="music-button"
+            onclick="mulaiMusik()">
+
+            ❤️ BUKA UNTUK VELIA ❤️
+
+        </button>
+
+
+        <div class="scroll">
+
+            ↓ SCROLL PELAN-PELAN ↓
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- TENTANG KITA -->
+
+<section>
+
+<div class="container">
+
+    <div class="judul">
+
+        <span>
+            OUR STORY
+        </span>
+
+        <h2>
+            Tentang Kita
+        </h2>
+
+    </div>
+
+
+    <div class="card">
+
+        <p>
+            Hai,
+            <span class="gold">
+                Velia.
+            </span>
+        </p>
+
+
+        <p>
+            Kalau kamu sampai membaca halaman ini,
+            berarti ada sesuatu yang ingin aku sampaikan
+            kepadamu.
+        </p>
+
+
+        <p>
+            Kita sudah melewati waktu yang nggak sebentar.
+            Hampir dua tahun kamu hadir dalam perjalanan
+            hidup aku.
+        </p>
+
+
+        <p>
+            Selama waktu itu kita nggak cuma mengenal
+            sisi baik satu sama lain.
+            Kita pernah tertawa,
+            bercanda,
+            saling manja,
+            berantem,
+            kecewa,
+            menangis,
+            dan saling belajar.
+        </p>
+
+
+        <p>
+            Tapi justru dari semua itu aku sadar,
+            sebuah hubungan bukan tentang selalu bahagia.
+            Kadang hubungan adalah tentang dua orang
+            yang sama-sama belajar memahami satu sama lain.
+        </p>
+
+
+        <p>
+            Dan dari sekian banyak orang yang pernah
+            datang dalam hidup aku,
+            kamu adalah salah satu orang yang
+            pernah benar-benar tinggal.
+        </p>
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- QUOTE -->
+
+<section class="quote">
+
+    <div class="container">
+
+        <div class="quote-text">
+
+            "Kalau aku diberi kesempatan
+            mengulang waktu,
+            aku tetap ingin bertemu denganmu
+            dan mengenalmu."
+
+            <br>
+
+            <span>
+                ❤️
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- SURAT -->
+
+<section>
+
+<div class="container">
+
+    <div class="judul">
+
+        <span>
+            A LETTER FOR YOU
+        </span>
+
+        <h2>
+            Surat Untuk Velia
+        </h2>
+
+    </div>
+
+
+    <div class="letter">
+
+
+        <div class="heart-big">
+            ❤️
+        </div>
+
+
+        <h3>
+            Untuk kamu, Velia...
+        </h3>
+
+
+        <p>
+            Aku sebenarnya bingung harus mulai dari mana.
+            Karena kalau aku menulis semua yang ada di
+            kepala dan hati aku, mungkin halaman ini
+            nggak akan pernah cukup.
+        </p>
+
+
+        <p>
+            Hampir dua tahun.
+            Kalau dipikir-pikir,
+            ternyata panjang juga perjalanan kita.
+        </p>
+
+
+        <p>
+            Ada begitu banyak hal yang pernah kita lewati.
+            Ada hari-hari dimana aku bisa tertawa hanya
+            karena ngobrol sama kamu.
+            Ada malam-malam dimana percakapan kita
+            terasa nggak pernah ada habisnya.
+        </p>
+
+
+        <p>
+            Ada juga hari dimana kita saling marah.
+            Saling diam.
+            Saling kecewa.
+            Bahkan mungkin ada saat dimana salah satu
+            dari kita bertanya-tanya,
+            "Masih bisa nggak ya kita bertahan?"
+        </p>
+
+
+        <p>
+            Tapi satu hal yang nggak pernah bisa aku
+            hapus dari ingatan adalah kenyataan bahwa
+            <span class="gold">
+                kamu pernah menjadi bagian besar
+                dari hidup aku.
+            </span>
+        </p>
+
+
+        <p>
+            Terima kasih ya, Velia.
+        </p>
+
+
+        <p>
+            Terima kasih karena pernah menemani aku
+            selama ini.
+            Terima kasih karena pernah mendengarkan
+            cerita aku.
+            Terima kasih karena pernah peduli.
+            Terima kasih karena pernah membuat aku
+            merasa disayangi.
+        </p>
+
+
+        <p>
+            Aku juga mau minta maaf.
+            Untuk semua perkataan aku yang mungkin
+            pernah menyakitimu.
+            Untuk sikap aku yang mungkin pernah
+            membuat kamu kecewa.
+            Untuk ego aku yang mungkin pernah
+            membuat kamu merasa sendirian.
+        </p>
+
+
+        <p>
+            Aku tahu aku nggak sempurna.
+            Bahkan mungkin selama kita bersama,
+            aku masih sering melakukan banyak hal
+            yang seharusnya nggak aku lakukan.
+        </p>
+
+
+        <p>
+            Tapi percayalah,
+            di balik semua kekurangan aku,
+            ada seseorang yang benar-benar bersyukur
+            pernah dipertemukan dengan kamu.
+        </p>
+
+
+        <p>
+            Kalau suatu hari nanti kita membuka kembali
+            halaman ini setelah waktu yang sangat lama,
+            aku ingin kita mengingat satu hal:
+        </p>
+
+
+        <p
+            style="
+                text-align:center;
+                font-size:25px;
+                color:#e5c879;
+            ">
+
+            <b>
+                Kita pernah punya cerita
+                yang sangat indah.
+            </b>
+
+        </p>
+
+
+        <p>
+            Dan kalau suatu hari nanti kamu lupa
+            betapa berharganya dirimu,
+            semoga kamu ingat bahwa pernah ada seseorang
+            yang merasa sangat beruntung karena pernah
+            memiliki kesempatan untuk mencintaimu.
+        </p>
+
+
+        <p>
+            Velia...
+        </p>
+
+
+        <p>
+            Aku nggak tahu apa yang akan terjadi
+            dengan kita di masa depan.
+            Aku juga nggak bisa menebak bagaimana
+            kehidupan kita nanti.
+        </p>
+
+
+        <p>
+            Tapi untuk semua waktu yang sudah kita
+            habiskan bersama,
+            aku akan selalu menyimpannya sebagai
+            bagian dari hidup aku.
+        </p>
+
+
+        <p>
+            Karena pada akhirnya,
+            bukan berapa lama kita bersama yang
+            paling penting.
+        </p>
+
+
+        <p>
+            Tapi tentang seberapa dalam seseorang
+            meninggalkan jejak di hati kita.
+        </p>
+
+
+        <p>
+            Dan kamu...
+        </p>
+
+
+        <p>
+
+            <span class="gold">
+                sudah meninggalkan jejak itu
+                di hati aku.
+            </span>
+
+        </p>
+
+
+        <div class="signature">
+
+            Dari Aji,
+
+            <br>
+
+            untuk Velia ❤️
+
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- PESAN RAHASIA -->
+
+<section>
+
+<div class="container rahasia-area">
+
+
+    <div class="judul">
+
+        <span>
+            ONE LAST MESSAGE
+        </span>
+
+        <h2>
+            Ada Satu Hal Lagi...
+        </h2>
+
+    </div>
+
+
+    <button
+        class="rahasia-button"
+        onclick="bukaRahasia()">
+
+        ✨ BUKA PESAN RAHASIA ✨
+
+    </button>
+
+
+    <div
+        class="rahasia"
+        id="rahasia">
+
+
+        <p>
+            Kalau sampai bagian ini kamu masih membaca,
+            berarti kamu benar-benar sampai di akhir.
+        </p>
+
+
+        <p>
+            Jadi aku mau bilang satu hal yang sederhana.
+        </p>
+
+
+        <p>
+            <b>
+                Terima kasih sudah pernah menjadi
+                rumah bagi hati aku.
+            </b>
+        </p>
+
+
+        <p>
+            ❤️
+        </p>
+
+
+        <p>
+            Dan apapun yang terjadi nanti,
+            semoga kamu selalu bahagia.
+        </p>
+
+    </div>
+
+</div>
+
+</section>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <h2>
+        Velia Al Zahra
+    </h2>
+
+
+    <p>
+
+        Hampir dua tahun.
+        Banyak cerita.
+        Banyak kenangan.
+
+        <br>
+
+        Dan satu nama yang akan selalu
+        punya tempat di cerita itu.
+
+    </p>
+
+
+    <div class="footer-heart">
+
+        ❤️
+
+    </div>
+
+</footer>
+
+
+
+<script>
+
+
+/* =========================
+   MUSIK
+========================= */
+
+function mulaiMusik() {
+
+    const lagu =
+        document.getElementById("lagu");
+
+    const tombol =
+        document.querySelector(".music-button");
+
+
+    lagu.play()
+        .then(function() {
+
+            tombol.innerHTML =
+                "🎵 LAGU SEDANG DIPUTAR ❤️";
+
+        })
+        .catch(function() {
+
+            alert(
+                "Musik belum bisa diputar. Pastikan file MP3 berada satu folder dengan index.html."
+            );
+
+        });
+
+}
+
+
+
+/* =========================
+   PESAN RAHASIA
+========================= */
+
+function bukaRahasia() {
+
+    const pesan =
+        document.getElementById("rahasia");
+
+
+    if (pesan.style.display === "block") {
+
+        pesan.style.display = "none";
+
+    } else {
+
+        pesan.style.display = "block";
+
+    }
+
+}
+
+
+
+/* =========================
+   BINTANG
+========================= */
+
+for (
+    let i = 0;
+    i < 120;
+    i++
+) {
+
+    const star =
+        document.createElement("div");
+
+
+    star.className = "star";
+
+
+    star.style.left =
+        Math.random() * 100 + "%";
+
+
+    star.style.top =
+        Math.random() * 100 + "%";
+
+
+    star.style.animationDelay =
+        Math.random() * 3 + "s";
+
+
+    document
+        .getElementById("stars")
+        .appendChild(star);
+
+}
+
+
+
+/* =========================
+   HATI JATUH
+========================= */
+
+setInterval(function() {
+
+    const hati =
+        document.createElement("div");
+
+
+    hati.className = "hati";
+
+
+    const daftarHati = [
+        "❤️",
+        "💗",
+        "💖",
+        "💕",
+        "✨",
+        "🤍"
+    ];
+
+
+    hati.innerHTML =
+        daftarHati[
+            Math.floor(
+                Math.random() *
+                daftarHati.length
+            )
+        ];
+
+
+    hati.style.left =
+        Math.random() * 100 + "vw";
+
+
+    hati.style.fontSize =
+        Math.random() * 15 + 10 + "px";
+
+
+    hati.style.animationDuration =
+        Math.random() * 5 + 5 + "s";
+
+
+    document.body.appendChild(hati);
+
+
+    setTimeout(function() {
+
+        hati.remove();
+
+    }, 10000);
+
+
+}, 600);
+
+
+</script>
+
+</body>
+</html>
